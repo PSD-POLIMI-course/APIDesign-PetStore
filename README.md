@@ -6,8 +6,13 @@ Students are invited to check the code and, based on other APIs, generate new se
 
 ## To generate the skeleton
 
+Run the following command which will download (the first time) and run the OAS tools. The code will be generated in the folder specified during the execution of the command
+
 `npx @oas-tools/cli init`
 
+
 ## To run the code
+
+Move to the folder created by the previous command and run the following command
 
 `npm start`
